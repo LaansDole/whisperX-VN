@@ -69,9 +69,9 @@ GPU execution requires the NVIDIA libraries cuBLAS 11.x and cuDNN 8.x to be inst
 
 ### 1. Create Python3.10 environment
 
-`conda create --name whisperx python=3.10`
+`conda create --name whisperx-vn python=3.10`
 
-`conda activate whisperx`
+`conda activate whisperx-vn`
 
 
 ### 2. Install PyTorch, e.g. for Linux and Windows CUDA11.8:
@@ -82,15 +82,15 @@ See other methods [here.](https://pytorch.org/get-started/previous-versions/#v20
 
 ### 3. Install this repo
 
-`pip install git+https://github.com/m-bain/whisperx.git`
+`pip install git+https://github.com/laansdole/whisperx-vn.git`
 
 If already installed, update package to most recent commit
 
-`pip install git+https://github.com/m-bain/whisperx.git --upgrade`
+`pip install git+https://github.com/laansdole/whisperx-vn.git --upgrade`
 
 If wishing to modify this package, clone and install in editable mode:
 ```
-$ git clone https://github.com/m-bain/whisperX.git
+$ git clone https://github.com/laansdole/whisperx-vn.git
 $ cd whisperX
 $ pip install -e .
 ```
